@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAZ — Sperma Anime Zavrika</title>
+  <link rel="stylesheet" href="/css/style.css?t=399">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Steam-style main navigation -->
+  <header class="s-topbar">
+    <div class="s-topbar-inner">
+      <div class="s-logo" onclick="navigate('home')"><span class="logo-word logo-s"><span class="logo-letter">S</span><span class="logo-rest">perma</span></span><span class="logo-word logo-a"><span class="logo-letter">A</span><span class="logo-rest">nime</span></span><span class="logo-word logo-z"><span class="logo-letter">Z</span><span class="logo-rest">avrika</span></span></div>
+      <nav class="s-nav" id="mainNav">
+        <div class="s-nav-drop">
+          <a class="s-nav-tab active" data-tab="store" onclick="navigate('home')">КАТАЛОГ</a>
+          <div class="s-nav-dropdown">
+            <a onclick="navigate('home')">Главная</a>
+            <a onclick="navigate('manga')">Манга</a>
+            <a onclick="navigate('schedule')">Расписание</a>
+          </div>
+        </div>
+        <div class="s-nav-drop">
+          <a class="s-nav-tab" data-tab="community" onclick="navigate('creators')">СООБЩЕСТВО</a>
+          <div class="s-nav-dropdown">
+            <a onclick="navigate('creators')">Озвучкеры</a>
+            <a onclick="navigate('leaderboard')">Лидерборд</a>
+            <a onclick="navigate('achievements')">Достижения</a>
+          </div>
+        </div>
+        <div class="s-nav-drop" id="profileDrop" style="display:none">
+          <a class="s-nav-tab" data-tab="profile" id="profileTab" onclick="navigate('profile')"></a>
+          <div class="s-nav-dropdown" id="profileDropdown">
+            <a onclick="navigate('profile')">Профиль</a>
+            <a onclick="navigate('friends')">Друзья</a>
+            <a onclick="navigate('saved')">Сохранённые</a>
+            <a onclick="navigate('wishlist')">Вишлист</a>
+            <a onclick="navigate('achievements')">Достижения</a>
+            <a onclick="navigate('history')">История</a>
+            <a onclick="navigate('stats')">Статистика</a>
+            <a onclick="navigate('settings')">Настройки</a>
+          </div>
+        </div>
+      </nav>
+      <div class="s-topbar-right" id="topbarRight"></div>
+    </div>
+  </header>
+
+  <!-- Steam-style sub-navigation -->
+  <div class="s-subnav" id="subNav">
+    <div class="s-subnav-inner">
+      <div class="s-subnav-links" id="subNavLinks">
+        <a onclick="navigate('schedule')">Расписание</a>
+      </div>
+      <div class="s-search" id="searchWrap">
+        <input type="text" id="searchInput" placeholder="Поиск..." autocomplete="off"
+               oninput="_onSearchInput(this.value)"
+               onkeydown="_onSearchKey(event)"
+               onfocus="_onSearchFocus()">
+        <button onclick="doSearch(document.getElementById('searchInput').value)"><i class="fas fa-search"></i></button>
+        <div class="s-search-drop" id="searchDrop"></div>
+      </div>
+      <a class="s-wishlist" onclick="navigate('animelist')">
+        <i class="fas fa-star"></i> <span>Закладки</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Bottom nav (mobile) -->
+  <nav class="bottomnav">
+    <div class="nav-item active" data-page="home" onclick="navigate('home')">
+      <i class="fas fa-home"></i><span>Главная</span>
+    </div>
+    <div class="nav-item" data-page="discover" onclick="navigate('discover')">
+      <i class="fas fa-compass"></i><span>Обзор</span>
+    </div>
+    <div class="nav-item" data-page="search" onclick="navigate('search')">
+      <i class="fas fa-search"></i><span>Поиск</span>
+    </div>
+    <div class="nav-item" data-page="animelist" onclick="navigate('animelist')">
+      <i class="fas fa-bookmark"></i><span>Закладки</span>
+    </div>
+    <div class="nav-item" data-page="profile" onclick="navigate('profile')">
+      <i class="fas fa-user"></i><span>Профиль</span>
+    </div>
+  </nav>
+
+  <!-- Content (full width) -->
+  <main class="content" id="app">
+    <div class="loader"><div class="spinner"></div></div>
+  </main>
+
+  <div id="siteFooter"></div>
+
+  <script src="/js/app.js?t=399"></script>
+</body>
+</html>
