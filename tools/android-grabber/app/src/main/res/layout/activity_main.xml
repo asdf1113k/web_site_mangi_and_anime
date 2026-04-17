@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/ic_launcher"
+            android:contentDescription="logo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anixart Token Grabber"
+            android:textColor="@color/text"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Перехватывает токен авторизации из Anixart"
+            android:textColor="@color/text_sec"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"/>
+
+        <!-- Status card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginTop="32dp">
+
+            <TextView
+                android:id="@+id/statusText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Прокси остановлен"
+                android:textColor="@color/text_sec"
+                android:textSize="15sp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/startBtn"
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:text="Запустить"
+                android:textSize="16sp"
+                android:layout_marginTop="16dp"
+                style="@style/Widget.MaterialComponents.Button"/>
+
+        </LinearLayout>
+
+        <!-- Instructions card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Инструкция"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/text_sec"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp"
+                android:text="1. Нажми «Запустить»\n2. Настройки → WiFi → твоя сеть → Прокси → Вручную\n3. Хост: 127.0.0.1  Порт: 8888\n4. Открой Anixart\n5. Токен появится автоматически\n6. Не забудь убрать прокси!"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/wifiBtn"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="Открыть настройки WiFi"
+                android:textSize="13sp"
+                android:layout_marginTop="12dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        </LinearLayout>
+
+        <!-- Token result card (hidden initially) -->
+        <LinearLayout
+            android:id="@+id/tokenCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Токен найден!"
+                android:textColor="@color/green"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tokenText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:textColor="@color/text"
+                android:textSize="12sp"
+                android:fontFamily="monospace"
+                android:textIsSelectable="true"
+                android:background="#22FFFFFF"
+                android:padding="12dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/copyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="Скопировать токен"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                style="@style/Widget.MaterialComponents.Button"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sendBtn"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="Отправить на ПК"
+                android:textSize="14sp"
+                android:layout_marginTop="8dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+        </LinearLayout>
+
+        <!-- Send to PC card (hidden initially) -->
+        <LinearLayout
+            android:id="@+id/sendCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_bg"
+            android:padding="20dp"
+            android:layout_marginTop="16dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Отправить на ПК"
+                android:textColor="@color/text"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Введи адрес сайта на ПК (из адресной строки браузера)"
+                android:textColor="@color/text_sec"
+                android:textSize="13sp"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pcUrlInput"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="12dp"
+                android:hint="http://192.168.1.100:3000"
+                android:textColor="@color/text"
+                android:textColorHint="@color/text_sec"
+                android:textSize="14sp"
+                android:inputType="textUri"
+                android:background="#22FFFFFF"
+                android:padding="12dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/sendPcBtn"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="Отправить"
+                android:textSize="14sp"
+                android:layout_marginTop="12dp"
+                style="@style/Widget.MaterialComponents.Button"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+</ScrollView>
