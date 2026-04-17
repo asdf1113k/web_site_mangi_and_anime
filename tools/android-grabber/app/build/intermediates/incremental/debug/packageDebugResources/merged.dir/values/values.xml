@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FFF04E4E</color>
+    <color name="bg">#FF0D0D0D</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="surface">#FF1A1A1A</color>
+    <color name="text">#FFFFFFFF</color>
+    <color name="text_sec">#99FFFFFF</color>
+    <string name="app_name">Anixart Token</string>
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+    </style>
+</resources>

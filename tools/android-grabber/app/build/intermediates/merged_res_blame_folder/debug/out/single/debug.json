@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.anixart.grab.app-merged_res-31:/drawable_ic_launcher.xml.flat",
+        "source": "com.anixart.grab.app-main-33:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "com.anixart.grab.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.anixart.grab.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.anixart.grab.app-merged_res-31:/drawable_card_bg.xml.flat",
+        "source": "com.anixart.grab.app-main-33:/drawable/card_bg.xml"
+    }
+]
