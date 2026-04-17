@@ -1,0 +1,24 @@
+# Query: hm-featured-wrap
+# ContextLines: 1
+
+Результаты: 4 - Файлы 4
+
+public\css\style.css:
+  532  /* Featured Carousel (Steam-style) */
+  533: .hm-featured-wrap {
+  534    display: flex; align-items: center; gap: 0; margin-bottom: 8px; margin-top: 20px;
+
+public\css\style.css.bak:
+  532  /* Featured Carousel (Steam-style) */
+  533: .hm-featured-wrap {
+  534    display: flex; align-items: center; gap: 0; margin-bottom: 8px; margin-top: 20px;
+
+public\js\app.js:
+  351      const dots = featured.map((_, i) => '<span class="hc-dot' + (i === 0 ? ' active' : '') + '" onclick="heroGoTo(' + i + ')"></span>').join('');
+  352:     html += '<div class="hm-featured-wrap">';
+  353      html += '<div class="hm-feat-arrow hm-fa-l" onclick="heroNav(-1)"><i class="fas fa-chevron-left"></i></div>';
+
+public\js\app.js.bak:
+  350      const dots = featured.map((_, i) => '<span class="hc-dot' + (i === 0 ? ' active' : '') + '" onclick="heroGoTo(' + i + ')"></span>').join('');
+  351:     html += '<div class="hm-featured-wrap">';
+  352      html += '<div class="hm-feat-arrow hm-fa-l" onclick="heroNav(-1)"><i class="fas fa-chevron-left"></i></div>';
