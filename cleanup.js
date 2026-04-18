@@ -1,5 +1,5 @@
 const fs = require('fs');
-const d = JSON.parse(fs.readFileSync('C:/Users/bashi/anixard-pc/data.json', 'utf8'));
+const d = JSON.parse(fs.readFileSync('C:/Users/СРЦН/Documents/anixard-pc/anixard-pc/data.json', 'utf8'));
 const mangaMap = {};
 d.manga_cache.forEach(m => mangaMap[m.id] = m);
 
@@ -109,4 +109,4 @@ d.manga_voiceovers = d.manga_voiceovers.filter(v => {
 
 console.log('Removed:', removed, 'Remaining:', d.manga_voiceovers.length);
 removedList.forEach(r => console.log('  ' + r));
-fs.writeFileSync('C:/Users/bashi/anixard-pc/data.json', JSON.stringify(d, null, 2));
+fs.writeFileSync('C:/Users/СРЦН/Documents/anixard-pc/anixard-pc/data.json', JSON.stringify(d, null, 2));
