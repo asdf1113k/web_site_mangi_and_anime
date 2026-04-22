@@ -1,1 +1,4 @@
-from ..data.json import user
+import json
+"""
+я пока что не знаю что конретно здесь написать
+"""
