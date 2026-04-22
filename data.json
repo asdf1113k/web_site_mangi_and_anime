@@ -26,7 +26,7 @@
       "created_at": "2026-03-20T20:04:20.002Z",
       "last_login": "2026-03-20T20:04:20.002Z",
       "friend_code": "TEST-80P5",
-      "last_seen": "2026-04-18T12:28:55.058Z",
+      "last_seen": "2026-04-22T08:59:54.026Z",
       "watching_now": "Стать любимой собачкой OVA"
     },
     {
@@ -5175,6 +5175,83 @@
   ],
   "watch_progress": [
     {
+      "id": 41,
+      "user_id": 2,
+      "anime_id": 224,
+      "current_episode": 1,
+      "total_episodes": 1,
+      "status": "watching",
+      "score": 0,
+      "title": "Спокойной ночи, анимешники с Хинако OVA",
+      "image": "https://s.anixmirai.com/posters/271xbe2tVv61Od2EVfHa5C8Sa7CQv1.jpg",
+      "watched_eps": [
+        1
+      ],
+      "last_type_id": 1,
+      "last_source_id": 1,
+      "ep_times": {
+        "1": 1772
+      },
+      "updated_at": "2026-04-18T12:27:54.023Z"
+    },
+    {
+      "id": 40,
+      "user_id": 2,
+      "anime_id": 14624,
+      "current_episode": 1,
+      "total_episodes": 6,
+      "status": "watching",
+      "score": 0,
+      "title": "Изобрази отвращение и покажи мне свои трусики",
+      "image": "https://s.anixmirai.com/posters/NW87Ap4PhjVnKCphD3WKg8yCfFPE7p.jpg",
+      "watched_eps": [
+        1
+      ],
+      "last_type_id": 1,
+      "last_source_id": 8,
+      "ep_times": {
+        "1": 105
+      },
+      "updated_at": "2026-04-18T12:22:34.632Z"
+    },
+    {
+      "id": 39,
+      "user_id": 2,
+      "anime_id": 15257,
+      "current_episode": 2,
+      "total_episodes": 6,
+      "status": "watching",
+      "score": 0,
+      "title": "Изобрази отвращение и покажи мне свои трусики 2",
+      "image": "https://s.anixmirai.com/posters/4cn8adOo1kD33i2LljHs2ZVUBWJTlk.jpg",
+      "watched_eps": [
+        1
+      ],
+      "last_type_id": 1,
+      "last_source_id": 8,
+      "ep_times": {
+        "1": 150,
+        "2": 15
+      },
+      "updated_at": "2026-04-18T12:19:00.439Z"
+    },
+    {
+      "id": 38,
+      "user_id": 2,
+      "anime_id": 20616,
+      "current_episode": 1,
+      "total_episodes": 0,
+      "status": "planned",
+      "score": 0,
+      "title": "Изобрази отвращение и покажи мне свои трусики: Возвращение",
+      "image": "https://s.anixmirai.com/posters/bt9JUnPznruqO0Fvncaly2acftd8vR.jpg",
+      "watched_eps": [],
+      "last_type_id": null,
+      "last_source_id": null,
+      "ep_times": {},
+      "updated_at": "2026-04-18T12:15:01.706Z"
+    },
+    {
       "id": 37,
       "user_id": 5,
       "anime_id": 20492,
@@ -5631,83 +5708,6 @@
       "title": "Какой сейчас Тамон?!",
       "image": "https://s.anixmirai.com/posters/UaRFK1sEkVbwoQVkDEqscQitixtvyg.jpg",
       "updated_at": "2026-03-18T18:49:24.425Z"
-    },
-    {
-      "id": 38,
-      "user_id": 2,
-      "anime_id": 20616,
-      "current_episode": 1,
-      "total_episodes": 0,
-      "status": "planned",
-      "score": 0,
-      "title": "Изобрази отвращение и покажи мне свои трусики: Возвращение",
-      "image": "https://s.anixmirai.com/posters/bt9JUnPznruqO0Fvncaly2acftd8vR.jpg",
-      "watched_eps": [],
-      "last_type_id": null,
-      "last_source_id": null,
-      "ep_times": {},
-      "updated_at": "2026-04-18T12:15:01.706Z"
-    },
-    {
-      "id": 39,
-      "user_id": 2,
-      "anime_id": 15257,
-      "current_episode": 2,
-      "total_episodes": 6,
-      "status": "watching",
-      "score": 0,
-      "title": "Изобрази отвращение и покажи мне свои трусики 2",
-      "image": "https://s.anixmirai.com/posters/4cn8adOo1kD33i2LljHs2ZVUBWJTlk.jpg",
-      "watched_eps": [
-        1
-      ],
-      "last_type_id": 1,
-      "last_source_id": 8,
-      "ep_times": {
-        "1": 150,
-        "2": 15
-      },
-      "updated_at": "2026-04-18T12:19:00.439Z"
-    },
-    {
-      "id": 40,
-      "user_id": 2,
-      "anime_id": 14624,
-      "current_episode": 1,
-      "total_episodes": 6,
-      "status": "watching",
-      "score": 0,
-      "title": "Изобрази отвращение и покажи мне свои трусики",
-      "image": "https://s.anixmirai.com/posters/NW87Ap4PhjVnKCphD3WKg8yCfFPE7p.jpg",
-      "watched_eps": [
-        1
-      ],
-      "last_type_id": 1,
-      "last_source_id": 8,
-      "ep_times": {
-        "1": 105
-      },
-      "updated_at": "2026-04-18T12:22:34.632Z"
-    },
-    {
-      "id": 41,
-      "user_id": 2,
-      "anime_id": 224,
-      "current_episode": 1,
-      "total_episodes": 1,
-      "status": "watching",
-      "score": 0,
-      "title": "Спокойной ночи, анимешники с Хинако OVA",
-      "image": "https://s.anixmirai.com/posters/271xbe2tVv61Od2EVfHa5C8Sa7CQv1.jpg",
-      "watched_eps": [
-        1
-      ],
-      "last_type_id": 1,
-      "last_source_id": 1,
-      "ep_times": {
-        "1": 1772
-      },
-      "updated_at": "2026-04-18T12:27:54.023Z"
     }
   ],
   "watch_time": [],
@@ -5884,7 +5884,7 @@
       "chapters_count": 211,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-15T10:18:52.692Z"
+      "cached_at": "2026-04-22T09:00:15.312Z"
     },
     {
       "id": 13,
@@ -5949,20 +5949,12 @@
       "title_ru": "Моя новая жизнь в мире зверей",
       "title_en": "Cute Beast World",
       "cover": "/media/titles/cute-beast-world/e061137472ce6e963744367b226f00e8.jpg",
-      "genres": [
-        "Гарем",
-        "Драма",
-        "Приключения",
-        "Романтика",
-        "Сверхъестественное",
-        "Сёдзё",
-        "Фэнтези"
-      ],
+      "genres": [],
       "rating": "8.5",
       "chapters_count": 371,
       "status": "Продолжается",
-      "description": "<p>Линь, принимая ванну, неожиданно перенеслась в другой мир! Когда она осмотрелась, то увидела красивого высокого мужчину-зверя, одетого в юбку из шкуры животного! Этот красавец предложил ей стать партнёрами и пойти к нему домой! Но межрасовые отношения ничем хорошим не заканчиваются и, к счастью, у героини имеются знания по выживанию в ином мире, позволяющие осваивать этот мир зверей! Линь хорошенько учиться, каждый день стремиться к лучшему! И не желает думать лишь о спаривании!</p>",
-      "cached_at": "2026-04-18T12:25:01.036Z"
+      "description": "",
+      "cached_at": "2026-04-22T08:59:48.641Z"
     },
     {
       "id": 18,
@@ -6388,7 +6380,7 @@
       "chapters_count": 274,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-15T10:19:09.325Z"
+      "cached_at": "2026-04-22T08:59:52.658Z"
     },
     {
       "id": 48,
@@ -6416,7 +6408,7 @@
       "chapters_count": 236,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-15T10:30:42.014Z"
+      "cached_at": "2026-04-22T08:59:57.925Z"
     },
     {
       "id": 50,
@@ -6724,7 +6716,7 @@
       "chapters_count": 227,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-18T12:15:05.938Z"
+      "cached_at": "2026-04-22T09:00:56.450Z"
     },
     {
       "id": 72,
@@ -7090,7 +7082,7 @@
       "chapters_count": 594,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:19:24.794Z"
+      "cached_at": "2026-04-22T09:00:33.180Z"
     },
     {
       "id": 98,
@@ -8426,7 +8418,7 @@
       "chapters_count": 141,
       "status": "Лицензировано",
       "description": "",
-      "cached_at": "2026-04-18T12:18:42.426Z"
+      "cached_at": "2026-04-22T09:00:35.046Z"
     },
     {
       "id": 192,
@@ -9228,7 +9220,7 @@
       "chapters_count": 81,
       "status": "Лицензировано",
       "description": "",
-      "cached_at": "2026-04-18T12:18:46.796Z"
+      "cached_at": "2026-04-22T08:59:44.564Z"
     },
     {
       "id": 248,
@@ -9242,7 +9234,7 @@
       "chapters_count": 109,
       "status": "Лицензировано",
       "description": "",
-      "cached_at": "2026-04-18T12:19:25.994Z"
+      "cached_at": "2026-04-22T09:00:25.551Z"
     },
     {
       "id": 249,
@@ -9270,7 +9262,7 @@
       "chapters_count": 111,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:19:02.337Z"
+      "cached_at": "2026-04-22T08:59:47.391Z"
     },
     {
       "id": 251,
@@ -9284,7 +9276,7 @@
       "chapters_count": 91,
       "status": "Лицензировано",
       "description": "",
-      "cached_at": "2026-04-18T12:18:41.002Z"
+      "cached_at": "2026-04-22T08:59:46.741Z"
     },
     {
       "id": 252,
@@ -9298,7 +9290,7 @@
       "chapters_count": 145,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:14:19.502Z"
+      "cached_at": "2026-04-22T09:00:38.530Z"
     },
     {
       "id": 253,
@@ -9312,7 +9304,7 @@
       "chapters_count": 27,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:18:40.016Z"
+      "cached_at": "2026-04-22T08:59:49.282Z"
     },
     {
       "id": 254,
@@ -9340,7 +9332,7 @@
       "chapters_count": 55,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-18T12:18:39.017Z"
+      "cached_at": "2026-04-22T08:59:48.016Z"
     },
     {
       "id": 256,
@@ -9354,7 +9346,7 @@
       "chapters_count": 438,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:18:43.691Z"
+      "cached_at": "2026-04-22T09:00:10.861Z"
     },
     {
       "id": 257,
@@ -9368,7 +9360,7 @@
       "chapters_count": 22,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-16T13:39:41.539Z"
+      "cached_at": "2026-04-22T09:00:16.784Z"
     },
     {
       "id": 258,
@@ -9382,7 +9374,7 @@
       "chapters_count": 26,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-18T12:18:44.403Z"
+      "cached_at": "2026-04-22T09:00:07.840Z"
     },
     {
       "id": 259,
@@ -9404,13 +9396,13 @@
       "remanga_id": 86806,
       "title_ru": "Мои навыки автоматически становятся максимального уровня!",
       "title_en": "Sorry, my skills are automatically at full level!",
-      "cover": "/media/titles/sorry-my-skills-are-automatically-at-full-level/cover_6b351778639045c3.webp",
+      "cover": "/media/titles/sorry-my-skills-are-automatically-at-full-level/cover_0719a0e6e3a7442b.webp",
       "genres": [],
-      "rating": "8.1",
+      "rating": "8.0",
       "chapters_count": 20,
       "status": "Лицензировано",
       "description": "",
-      "cached_at": "2026-04-18T12:17:01.423Z"
+      "cached_at": "2026-04-22T09:00:14.670Z"
     },
     {
       "id": 261,
@@ -9438,7 +9430,7 @@
       "chapters_count": 29,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:19:16.272Z"
+      "cached_at": "2026-04-22T09:00:31.091Z"
     },
     {
       "id": 263,
@@ -9452,7 +9444,7 @@
       "chapters_count": 123,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:19:06.941Z"
+      "cached_at": "2026-04-22T09:00:18.621Z"
     },
     {
       "id": 264,
@@ -9466,7 +9458,7 @@
       "chapters_count": 10,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-17T11:27:02.458Z"
+      "cached_at": "2026-04-22T09:00:21.563Z"
     },
     {
       "id": 265,
@@ -9480,7 +9472,7 @@
       "chapters_count": 54,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:18:49.957Z"
+      "cached_at": "2026-04-22T09:00:10.236Z"
     },
     {
       "id": 266,
@@ -9522,7 +9514,7 @@
       "chapters_count": 634,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:14:01.658Z"
+      "cached_at": "2026-04-22T09:00:24.898Z"
     },
     {
       "id": 269,
@@ -9536,7 +9528,7 @@
       "chapters_count": 40,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-18T12:19:33.192Z"
+      "cached_at": "2026-04-22T09:00:23.986Z"
     },
     {
       "id": 270,
@@ -9634,7 +9626,7 @@
       "chapters_count": 1293,
       "status": "Лицензировано",
       "description": "",
-      "cached_at": "2026-04-18T12:19:15.643Z"
+      "cached_at": "2026-04-22T09:00:42.254Z"
     },
     {
       "id": 277,
@@ -9676,7 +9668,7 @@
       "chapters_count": 105,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:15:08.140Z"
+      "cached_at": "2026-04-22T09:00:41.587Z"
     },
     {
       "id": 280,
@@ -9704,7 +9696,7 @@
       "chapters_count": 8,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:14:33.839Z"
+      "cached_at": "2026-04-22T09:00:42.879Z"
     },
     {
       "id": 282,
@@ -9718,7 +9710,7 @@
       "chapters_count": 0,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-18T12:14:26.057Z"
+      "cached_at": "2026-04-22T09:00:44.168Z"
     },
     {
       "id": 283,
@@ -9732,7 +9724,7 @@
       "chapters_count": 72,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:19:31.560Z"
+      "cached_at": "2026-04-22T09:00:44.795Z"
     },
     {
       "id": 284,
@@ -10118,7 +10110,7 @@
       "chapters_count": 91,
       "status": "Закончен",
       "description": "",
-      "cached_at": "2026-04-18T12:17:29.893Z"
+      "cached_at": "2026-04-22T08:59:49.948Z"
     },
     {
       "id": 311,
@@ -10668,7 +10660,7 @@
       "chapters_count": 219,
       "status": "Лицензировано",
       "description": "",
-      "cached_at": "2026-04-15T10:23:51.794Z"
+      "cached_at": "2026-04-22T08:59:56.901Z"
     },
     {
       "id": 350,
@@ -11323,10 +11315,10 @@
       "cover": "/media/titles/versatile_mage/ddb74ecc19e2fe05d7cd978b9a9e071c.jpg",
       "genres": [],
       "rating": "8.5",
-      "chapters_count": 1082,
+      "chapters_count": 1083,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:19:27.955Z"
+      "cached_at": "2026-04-22T09:00:47.682Z"
     },
     {
       "id": 397,
@@ -11354,7 +11346,7 @@
       "chapters_count": 26,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-18T12:14:08.358Z"
+      "cached_at": "2026-04-22T09:00:32.098Z"
     },
     {
       "id": 399,
@@ -12166,7 +12158,7 @@
       "chapters_count": 327,
       "status": "Продолжается",
       "description": "",
-      "cached_at": "2026-04-08T17:41:20.358Z"
+      "cached_at": "2026-04-22T09:00:49.489Z"
     },
     {
       "id": 457,
@@ -12615,6 +12607,20 @@
       "status": "Продолжается",
       "description": "",
       "cached_at": "2026-04-18T12:14:45.436Z"
+    },
+    {
+      "id": 489,
+      "slug": "a-fortunetelling-princess_",
+      "remanga_id": 84801,
+      "title_ru": "Принцесса-гадалка",
+      "title_en": "A Fortune-Telling Princess",
+      "cover": "/media/titles/a-fortunetelling-princess_/cover_82ed447701874237.webp",
+      "genres": [],
+      "rating": "9.3",
+      "chapters_count": 133,
+      "status": "Продолжается",
+      "description": "",
+      "cached_at": "2026-04-22T09:00:35.684Z"
     }
   ],
   "voiceover_search_log": [
@@ -22828,6 +22834,57 @@
       "author_name": "Тайные царства оккультный тайм-аут",
       "view_count": 0,
       "added_at": "2026-04-18T12:14:45.437Z"
+    },
+    {
+      "id": 884,
+      "manga_id": 12,
+      "source": "rutube",
+      "video_id": "59e2319727e9fc67f6175e73dcc743e1",
+      "title": "Супер бог зоомагазина (магазин астральных питомцев) 1 - 50 Глава / Озвучка манги",
+      "channel": "Альтернативный Наруто: Озвучка манги",
+      "thumbnail": "https://pic.rtbcdn.ru/video/fb/c8/fbc87f530d5398b4bf8590f2da6509a6.jpg",
+      "duration": 24915,
+      "url": "https://rutube.ru/video/59e2319727e9fc67f6175e73dcc743e1/",
+      "direct_url": null,
+      "direct_url_expires": null,
+      "is_auto": true,
+      "author_name": "Альтернативный Наруто: Озвучка манги",
+      "view_count": 0,
+      "added_at": "2026-04-22T09:00:05.884Z"
+    },
+    {
+      "id": 885,
+      "manga_id": 257,
+      "source": "rutube",
+      "video_id": "2d6446ff7194fc1720cbe0d04a879d55",
+      "title": "Ниже нуля [Озвучка манги | 59-60 главы]",
+      "channel": "Романота",
+      "thumbnail": "https://pic.rtbcdn.ru/video/2026-02-20/d5/47/d5470e778266094b64b2e1d3905e47be.jpg",
+      "duration": 634,
+      "url": "https://rutube.ru/video/2d6446ff7194fc1720cbe0d04a879d55/",
+      "direct_url": null,
+      "direct_url_expires": null,
+      "is_auto": true,
+      "author_name": "Романота",
+      "view_count": 0,
+      "added_at": "2026-04-22T09:00:12.955Z"
+    },
+    {
+      "id": 886,
+      "manga_id": 489,
+      "source": "rutube",
+      "video_id": "af3ca059151b1b28a2e813a8eae85a8a",
+      "title": "♡\"Принцесса-гадалка\" [0-3] | ОЗВУЧКА МАНГИ | +Пролог",
+      "channel": "Звериный мир в гармонии с природой",
+      "thumbnail": "https://pic.rtbcdn.ru/video/16/5e/165e91d4d66ceec5a5204b6bd219ed06.jpg",
+      "duration": 2087,
+      "url": "https://rutube.ru/video/af3ca059151b1b28a2e813a8eae85a8a/",
+      "direct_url": null,
+      "direct_url_expires": null,
+      "is_auto": true,
+      "author_name": "Звериный мир в гармонии с природой",
+      "view_count": 0,
+      "added_at": "2026-04-22T09:00:35.684Z"
     }
   ],
   "voiceover_channels": [
@@ -22866,7 +22923,7 @@
     {
       "id": 1,
       "user_id": 2,
-      "bio": "",
+      "bio": "пенис, хер, залупа и попа мамонта",
       "banner_color": null,
       "badge": null,
       "is_creator": true,
